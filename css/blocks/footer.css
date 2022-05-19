@@ -1,0 +1,23 @@
+.footer-text {
+    margin-top: 100px;
+    text-align: center;
+    font-family: "RedHatDisplay-Medium", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #21232D;
+}
+
+.footer-links {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links img {
+    margin-right: 40px;
+    max-width: 50px;
+}

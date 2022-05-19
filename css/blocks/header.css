@@ -1,0 +1,45 @@
+.header-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin-left: 100px;
+    color: #7E7F86;
+}
+
+.header-nav ul {
+    height: 24.77px;
+    display: flex;
+}
+
+.header-nav li {
+    font-family: "RedHatDisplay-Medium", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.header-nav li:not(:last-child) {
+    margin-right: 26px;
+}
+
+.header-nav li:hover {
+    color: black;
+    transition: 0.5s, color 0.1s;
+}
+
+.elem{
+	font-size:24px;
+	line-height:26px;
+	color:#333;
+	background:linear-gradient(currentColor, currentColor) 50% 100% no-repeat;
+	background-size:0 1px;
+	transition: 0.5s, color 0.1s;
+}
+.elem:hover{
+	background-size:100% 1px;
+}
+

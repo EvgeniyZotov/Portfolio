@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- FONTS -->
+    <link rel="stylesheet" href="./css/fonts/redhatdisplay/stylesheet.css">
+    <link rel="stylesheet" href="./css/fonts/roboto/stylesheet.css">
+    <!-- BLOCKS -->
+    <link rel="stylesheet" href="./css/blocks/header.css">
+    <link rel="stylesheet" href="./css/blocks/burger_menu.css">
+    <link rel="stylesheet" href="./css/blocks/about.css">
+    <link rel="stylesheet" href="./css/blocks/services.css">
+    <link rel="stylesheet" href="./css/blocks/portfolio.css">
+    <link rel="stylesheet" href="./css/blocks/contact_me.css">
+    <link rel="stylesheet" href="./css/blocks/footer.css">
+    <!-- RESET -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+
+<body>
+    <!-- ABOUT -->
+    <section class="about">
+        <div class="container">
+            <!-- HEADER -->
+            <div class="header-row">
+                <div class="header-logo">
+                    <img src="./img/header/logo.svg" alt="Header Logo">
+                </div>
+                <div class="header-nav">
+                    <ul>
+                        <li>
+                            <a class="elem" href="#">About</a>
+                        </li>
+                        <li>
+                            <a class="elem" href="#">Services</a>
+                        </li>
+                        <li>
+                            <a class="elem" href="#">Works</a>
+                        </li>
+                        <li>
+                            <a class="elem" href="#">Blog</a>
+                        </li>                      
+                    </ul>
+                </div>
+                <!-- BURGER MENU -->
+                <div class="header-burger">
+                    <div class="header-burger-menu" onclick="myFunction(this)"> 
+                        <div class="circle">
+                            <div class="circle-menu">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <!-- INFO -->
+            <div class="info">
+                <div class="info-name-text">
+                    <h1>EVGENIY ZOTOV</h1>
+                    <p>Java Developer</p>
+                    <button class="btn-info">Let’s Talk</button>
+                </div>
+                <div class="img-info">
+                    <img src="./img/about/user-image.svg" alt="user">
+                    <!-- <img class="particle" src="./img/about/particle.svg" alt="particle"> -->
+                    <!-- <img src="./img/about/background-color-img.svg" alt="backgroundcolor-img"> -->
+                </div>        
+        </div>  
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services">
+        <div class="container">
+            <div class="service-main">
+                <div class="service-info">
+                    <h2>Services</h2>
+                    <div class="services-bar"></div>
+                    <p>What  actually I love to do</p>
+                    <!-- SERVICE CARD -->
+                    <div class="services-card">
+                        <div class="services-card-01">
+                            <div class="services-card-img-name">
+                                <img src="./img/services/cart-01.svg" alt="cart-01">
+                                <p class="card-name">UX Research</p>
+                            </div>
+                            <div class="services-card-info">
+                                <p>New demos are continually added and buying a single license for Mak gives you access to all of
+                                    what's shown below, plus everything that will be added in the future.</p>
+                            </div>
+                        </div>
+                        <div class="services-card-02">
+                            <div class="services-card-img-name">
+                                <img src="./img/services/cart-02.svg" alt="cart-02">
+                                <p class="card-name">Brand Design</p>
+                            </div>
+                            <div class="services-card-info">
+                                <p>New demos are continually added and buying a single license for Mak gives you access to all of
+                                    what's shown below, plus everything that will be added in the future.</p>
+                            </div>
+                        </div>
+                        <div class="services-card-03">
+                            <div class="services-card-img-name">
+                                <img src="./img/services/cart-03.svg" alt="cart-03">
+                                <p class="card-name">Web Development</p>
+                            </div>
+                            <div class="services-card-info">
+                                <p>New demos are continually added and buying a single license for Mak gives you access to all of
+                                    what's shown below, plus everything that will be added in the future.</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio-main">
+                <div class="portfolio-info">
+                    <h2>Portfolio</h2>
+                    <div class="services-bar"></div>
+                    <div class="explore-more">
+                        <p class="all-creative-projects">All Creative Projects</p>
+                        <div class="explore-more-asd">
+                            <p class="explore-more-text elem"><a href="#">Explore More</a></p>
+                            <img class="arrow-img" src="./img/portfolio/codicon-arrow-right.svg" alt="arrow-right">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="portfolio-img">
+                    <img class="portfolio-img01" src="./img/portfolio/site01.jpg" alt="site01">
+                    <img class="portfolio-img02" src="./img/portfolio/site02.jpg" alt="site02">
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <section class="contact-me">
+        <div class="container rgb">
+            <div class="contact-me-main">
+                <div class="contact-me-info">
+                    <h2>Contact Me</h2>
+                    <div class="services-bar"></div>
+                    <div class="about-contact-me">
+                        <p>Let me know if you want to talk 
+                            about a potential collaboration.
+                            I'm available for freelance work.
+                        </p>
+                        <a class="contact-me-email elem" href="#">infoname@mail.com</a>
+                    </div>
+                    <!-- FORM -->
+                    <div class="about-contact-me-form">
+                        <form action="send.php" method="POST">
+                            <input type="text" name="name" placeholder="What’s your name?">
+                            <input type="email" name="email" placeholder="Your email">
+                            <input type="text" class="form-text" name = "text" placeholder="Tell me about your project">
+                            <!-- <input type="submit" class="btn"> -->
+                        </form>
+                    </div>
+                    <button class="btn-info">Get a Quote</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-text">
+                <h2>Let’s be Friends</h2>
+            </div>
+            <div class="footer-links">
+                <a href="#"><img src="./img/footer/behance.svg" alt="behance"></a>
+                <a href="#"><img src="./img/footer/instagram.svg" alt="instagram"></a>
+                <a href="#"><img src="./img/footer/in.svg" alt="in"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="./js/burger_menu.js"></script>
+
+    
+</body>
+
+    
+</html>

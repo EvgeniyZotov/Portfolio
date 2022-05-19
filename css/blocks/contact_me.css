@@ -1,0 +1,66 @@
+.contact-me{
+    background-color: linear-gradient(180deg, rgba(187, 133, 255, 0.166) -8.54%, rgba(255, 244, 251, 0.2) 100%);
+}
+
+.about-contact-me {
+    display: flex;
+}
+
+.about-contact-me > a {
+    margin-left: 520px;
+    font-family: "RedHatDisplay-Medium", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: lowercase;
+    color: #8643DC;
+}
+
+.contact-me-info > h2{
+    font-family: "RedHatDisplay-Medium", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+}
+
+.about-contact-me > p{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 52px;
+    color: #21232D;
+    max-width: 512px;
+    margin-top: 20px;
+}
+
+.contact-me-email{
+    max-height: 30px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.about-contact-me-form {
+    display: flex;
+    margin-top: 50px;
+    display: grid;
+    font-family: "RedHatDisplay-Medium", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #A8A0B0;
+}
+
+.form_text {
+    padding-left: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}

@@ -1,0 +1,60 @@
+.header-burger{
+  margin-left: 563px;
+  position: relative;
+}
+
+.circle {
+  position: relative;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  line-height: 40px;
+  background: #fff;
+  margin: 1em;
+  border-radius: 50%;
+  text-align: center;
+  left: 50%;
+  transition: 0.5s, color 0.1s;
+  box-shadow:3px 9px 29px 17px rgba(55,249,251,0.14);
+  -webkit-box-shadow:3px 9px 29px 17px rgba(55,249,251,0.14);
+  -moz-box-shadow:3px 9px 29px 17px rgba(55,249,251,0.14);
+}
+
+.circle:hover {
+  background-color: rgba(55,249,251,0.13);
+}
+
+.circle-menu {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 20px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 29px;
+    height: 4px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: 0.4s;
+    border-radius: 5px;
+  }
+  
+  /* Поворот первой полосы */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-4px, 3px) ;
+    transform: rotate(-45deg) translate(-4px, 3px) ;
+  }
+  
+  /* Исчезание второй полосы */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Поворот последней полосы */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
